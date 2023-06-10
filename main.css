@@ -1,0 +1,21 @@
+* {
+    background-color: #1e3032;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #c5cbcb;
+}
+
+button {
+    background-color: #4d767c;
+    color: #c5cbcb;
+}
+
+p {
+    color: #c5cbcb;
+    font-size:50px;
+    
+}
