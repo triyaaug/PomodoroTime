@@ -20,55 +20,33 @@ body {
 
 body {
 	background: #4C7273;
+	margin: 0; 
+	padding: 0;
+	height: 100vh;
 }
 
 .header {
-	/*padding: 5px;*/
-	height: 20vh;
-	width: 100%;
-	padding: 0 0;
-	text-align: centre;
-	background: #042630;
-	position: relative;
-	color: white;
-	font-size: 80;
-	line-height: 0%;
+	background-color: #042630;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
 }
 
-nav{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+.header a {
+	float: right;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 .logo {
-	width: 250px;
-}
-
-.nav-links {
 	float: left;
-	display: inline-block;
-	padding: 28px 0;
-	text-align: center;
+	padding: none;
+	margin: none;
+	height: 200px;
+	width: auto;
 }
 
-.nav-links li {
-	display: inline-block;
-	margin: 0 15px;
-}
-
-.nav-links li a {
-	text-decoration: none;
-	color: white;
-	padding: 5px 0;
-}
-
-img {
-	width: 25%;
-	height: 25%;
-}
-
-button {
-    background-color: #4d767c;
-    color: #c5cbcb;
-}
